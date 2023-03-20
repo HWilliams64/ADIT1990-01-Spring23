@@ -26,7 +26,7 @@ The `inclass` directory holds the code we created in class.
 ## Getting Started
 
 To get started with the course materials, simply open your Grader Than Workspace
-and the content will be in folder named `ADIT1990-01-Spring23`. Every time you
+and the content will be in folder named `ADIT1990-01-spring23`. Every time you
 open your workspace this folder will be updated with the latest material.
 
 **Not using a GT Workspace?**
@@ -34,5 +34,5 @@ open your workspace this folder will be updated with the latest material.
 To get started with the course materials, simply clone the repository onto your local machine:
 
 ```
-git clone https://github.com/HWilliams64/ADIT1990-01-Spring23.git
+git clone https://github.com/HWilliams64/ADIT1990-01-spring23.git
 ```
