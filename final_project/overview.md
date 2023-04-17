@@ -57,19 +57,17 @@ getline(file, contents);
 ```
 
 The shared game file will start with a line that specifies the minimum word
-length, which will match the pattern "MIN_LENGTH: <number>". All subsequent
-lines in the file will contain the letters played in the game and will have the
-following format: the application's team name followed by a colon ':' followed
-by a single letter they'd like to play.
+length. All subsequent lines in the file will contain a single letter each
+player has played in the prior rounds.
 
 For example:
 
 ```yaml
-MIN_LENGTH: 4
-PLAYER_1: A
-PLAYER_2: P
-PLAYER_1: P
-PLAYER_2: L
+4
+A
+P
+P
+L
 ```
 
 
@@ -86,9 +84,9 @@ Your application's thought process should be as follows:
    does not cause you to lose. You should review the assignments from Week 6 and
    Week 12 for help with this step. 
 
-3. Once you have found a suitable letter to play, write your team name followed
-   by a colon ':' and then the letter you'd like to play to the shared game
-   file. You should review the assignment from Week 8 for help with this step. 
+3. Once you have found a suitable letter to play, write the letter you'd like to
+   play to the shared game file. You should review the assignment from Week 8
+   for help with this step. 
 
 The moment your application writes to the file, it should exit with an exit code
 of 0. The next time it's your application's turn to play, the referee
@@ -124,7 +122,7 @@ first player you should only care about spelling even length words. You can tell
 if you are the first player by the length of the word fragment when it is your
 turn...  
 
-## How do I play the game?:
+## How do I start the game?:
 
 <img src="https://media.tenor.com/vYRvdaXe2QwAAAAC/its-time-to-play-niana-guerrero.gif"
 width="300">
