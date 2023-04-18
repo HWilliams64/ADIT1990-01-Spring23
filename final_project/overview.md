@@ -127,7 +127,9 @@ turn... 
 <img src="https://media.tenor.com/vYRvdaXe2QwAAAAC/its-time-to-play-niana-guerrero.gif"
 width="300">
 
-1. Start by compiling your application with the following command:
+1. Download the Referee application to your workspace from my [google drive](https://drive.google.com/file/d/1BiNpdK5GJ40AJrWujJQ0qdR3TbUYb7Za/view?usp=sharing).
+   
+2. Compile your application with the following command:
    
     ```sh
     g++-11 -fmodules-ts -g -std=c++20 path/to/your/app-file.cpp -o team-name
@@ -172,7 +174,7 @@ width="300">
       the .cpp files in the current directory. This assumes that all the source
       code for the application is contained in .cpp files. 
 
-2. Test your application. To ensure your application is working correctly you can play against the referee. Use the following
+3. Test your application. To ensure your application is working correctly you can play against the referee. Use the following
     command to start the game:
 
     ```sh
@@ -185,7 +187,7 @@ width="300">
 
     The referee file is found in this same directory as this markdown file.
 
-3. To play against another person you may do the following:
+4. To play against another person you may do the following:
 
     ```sh
      path/to/referee --player_1 path/to/your/app-executable-1 --player_2 path/to/your/app-executable-2
