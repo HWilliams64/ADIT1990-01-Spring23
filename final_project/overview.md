@@ -127,7 +127,9 @@ turn... 
 <img src="https://media.tenor.com/vYRvdaXe2QwAAAAC/its-time-to-play-niana-guerrero.gif"
 width="300">
 
-1. Download the Referee application to your workspace from my [google drive](https://drive.google.com/file/d/1ZRht6fth8cs3sk24OXgRFSgqW7QlmO7H/view?usp=share_link).
+1. Download the Referee application to your workspace from my [google
+   drive](https://drive.google.com/file/d/1ZRht6fth8cs3sk24OXgRFSgqW7QlmO7H/view?usp=share_link)
+   (if google give you errors download from [Canvas](https://bostoncollege.instructure.com/files/72133888/download?download_frd=1)).
    
 2. Compile your application with the following command:
    
