@@ -134,7 +134,7 @@ width="300">
 2. Compile your application with the following command:
    
     ```sh
-    g++-11 -fmodules-ts -g -std=c++20 path/to/your/app-file.cpp -o team-name
+    g++-11 -fmodules-ts -g -std=c++20 -static path/to/your/app-file.cpp -o team-name
     ```
     This command is a compilation command for a C++ application that uses C++20
     language features and modules. Here's a breakdown of what each part of the
@@ -169,7 +169,7 @@ width="300">
     If your application contains multiples files use the following command:
 
     ```sh
-    g++-11 -fmodules-ts -g -std=c++20 path/to/your/app-directory/*cpp -o team-name
+    g++-11 -fmodules-ts -g -std=c++20 -static path/to/your/app-directory/*cpp -o team-name
     ```
     
     - `path/to/your/app-directory/*cpp`: This tells the compiler to compile all
