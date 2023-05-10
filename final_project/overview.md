@@ -64,14 +64,14 @@ For example:
 
 ```yaml
 4
-A
-P
-P
-L
+a
+p
+p
+l
 ```
 
 
-In this example, the current word fragment is "APPL", and it is now Player 1's
+In this example, the current word fragment is "appl", and it is now Player 1's
 turn.
 
 Your application's thought process should be as follows:
@@ -128,8 +128,8 @@ turn... 
 width="300">
 
 1. Download the Referee application to your workspace from my [google
-   drive](https://drive.google.com/file/d/1ZRht6fth8cs3sk24OXgRFSgqW7QlmO7H/view?usp=share_link)
-   (if google give you errors download from [Canvas](https://bostoncollege.instructure.com/files/72133888/download?download_frd=1)).
+   drive](https://drive.google.com/file/d/1kGPxMqFrKpFpv17ceR_oSn4bJ8eXxxw8/view?usp=share_link)
+   (if google give you errors download from [Canvas](https://bostoncollege.instructure.com/files/72174628/download?download_frd=1)).
    
 2. Compile your application with the following command:
    
@@ -152,6 +152,11 @@ width="300">
 
     - `-std=c++20`: This flag specifies that the code should be compiled using
       the C++20 standard. 
+
+    - `-static`: This flag is used to link a program statically instead of
+      dynamically. It includes all necessary functions and resources in the
+      executable file itself, providing advantages such as faster startup time
+      and better portability.
 
     - `path/to/your/app-file.cpp`: This specifies the path to the main .cpp file
       for the application. This file should contain the main function, which is
